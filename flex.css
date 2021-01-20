@@ -142,6 +142,10 @@ body{
  /* Meadia Quries */
 
 @media only screen and (max-width: 768px){
+  body{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
  #main{
         display: block;    
  }
