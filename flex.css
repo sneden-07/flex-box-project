@@ -38,7 +38,7 @@ body{
     align-items: center;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     height: 600px;
-    width: 100%;
+    width: auto;
     margin-top: -10px;
 }
 
@@ -86,7 +86,7 @@ body{
 
 #main{
     display: flex;
-    height: 350px;
+    height: auto;
     justify-content: space-around;
     flex-wrap: wrap;
     
@@ -141,20 +141,27 @@ body{
 
  /* Meadia Quries */
 
-@media only screen and (max-width: 768){
+@media only screen and (max-width: 768px){
  #main{
-        display: block;
-        
+        display: block;    
+ }
+ 
+ .item{
+     text-align: center;
+     margin-bottom: 10px;
  }
 
- #company{
-    color: aquamarine;
-    justify-content: flex-start;
+ .item span {
+     position: absolute;
+     right: 50px;
+     bottom: auto;
+ }
+ #team{
+     display: block;
     
- } 
+ }
 
-.people{
-    color: blue;
-}
-
+ .member{
+     text-align: center;
+ }
 }
